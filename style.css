@@ -16,6 +16,10 @@
     --p: bold 18px/22px var(--ff);
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+}
+
 h1 {
     font: var(--h1);
 }
@@ -44,7 +48,88 @@ p, ul {
     font: var(--p);
 }
 
-.big-black-btn {
+img {
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
+.title {
+    display: flex;
+    padding: 96px 144px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-background {
+    width: 100%;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    z-index: -1;
+}
+
+.title-card {
+    display: flex;
+    padding: 74px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+
+    border-radius: 24px;
+    background: var(--colorsecondary);
+
+    /*Drop shadow*/
+    box-shadow: 0px 20px 48px 0px rgba(0, 0, 0, 0.40);
+}
+
+.title-container {
+    display: flex;
+    width: 100%;
+    height: 375px;
+    justify-content: center;
+    align-items: center;
+    gap: 74px;
+    align-self: stretch;
+}
+
+.title-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.title-text {
+    display: flex;
+    padding-bottom: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+
+    border-bottom: 1px solid var(--colorbackground, #DFDFDF);
+}
+
+.title-buttons-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.download-svg {
+    height: 22px;
+    width: 22px;
+}
+
+.title-about-btn {
     display: flex;
     padding: 20px;
     justify-content: center;
@@ -53,8 +138,51 @@ p, ul {
 
     border-radius: 10px;
     opacity: 0.88;
+    border: 2px solid #000;
     background: var(--colorprimary);
     
     font: var(--p);
-    color: var(--colorbackground);
+    color: var(--colorsecondary);
+}
+
+.title-resume-btn {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 10px;
+    border: 2px solid #000;
+    opacity: 0.88;
+    background: var(--color-secondary, #FFF);
+
+    font: var(--p);
+}
+
+.button-text {
+    display: inline-block;
+    margin: 0px;
+    white-space: nowrap;
+}
+
+.social-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 17px;
+}
+
+.title-portrait {
+    overflow: hidden;
+    align-self: stretch;
+    object-fit: cover;
+
+    border-radius: 24px;
+    border: 1px solid var(--color-background, #DFDFDF);
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.30);
+}
+
+.title-description {
+    margin: 0px;
 }
