@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --colorprimary: #000000;
+    --colorsecondary: #ffffff;
+    --colorbackground: #dfdfdf;
+    --colordarkbackground: #999999;
+    --ff: 'Inter', Arial, sans-serif;
+
+    --h1: bold 53.75px/65px var(--ff);
+    --h2: bold 44.79px/54px var(--ff);
+    --h3: bold 37.32px/45px var(--ff);
+    --h4: bold 31.1px/38px var(--ff);
+    --h5: bold 25.92px/31px var(--ff);
+    --h6: bold 21.6px/26px var(--ff);
+    --p: bold 18px/22px var(--ff);
+}
+
+h1 {
+    font: var(--h1);
+}
+
+h2 {
+    font: var(--h2);
+}
+
+h3 {
+    font: var(--h3);
+}
+
+h4 {
+    font: var(--h4);
+}
+
+h5 {
+    font: var(--h5);
+}
+
+h6 {
+    font: var(--h6);
+}
+
+p, ul {
+    font: var(--p);
+}
+
+.big-black-btn {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 10px;
+    opacity: 0.88;
+    background: var(--colorprimary);
+    
+    font: var(--p);
+    color: var(--colorbackground);
+}
