@@ -64,15 +64,35 @@ body {
     background-color:  var(--colorbackground);
 }
 
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a:visited {
+    color: var(--colorprimary); 
+}
+
+
 .header-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
 
     border-bottom: 1px solid var(--colordarkbackground, #999);
     background: var(--colorsecondary, #fff);
+
 }
 
 .header-container {
@@ -108,7 +128,7 @@ body {
 
 .title-section {
     display: flex;
-    padding: 96px 144px;
+    padding: 180px 144px 96px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -447,5 +467,10 @@ body {
 }
 
 .freepik-attribution {
+    text-decoration: underline;
     color: var(--colordarkbackground, 999);
+}
+
+.footer-social {
+    width: 100%;
 }
