@@ -61,6 +61,7 @@ img {
 body {
     overflow-x: hidden;
     margin: 0px;
+    background-color:  var(--colorbackground);
 }
 
 .header-section {
@@ -115,10 +116,11 @@ body {
 
 .title-background {
     width: 100%;
+    min-width: 1731px;
 
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0%;
+    top: 0%;
 
     z-index: -1;
 }
@@ -330,13 +332,11 @@ body {
 }
 
 .activities-background {
-    width: 85%;
+    width: 220px;
 
     position: absolute;
-    left: -65%;
-    top: 0px;
-
-    z-index: -1;
+    left: 0%;
+    top: 1100px;
 }
 
 .activity-card {
@@ -390,4 +390,62 @@ body {
     background-size: cover;
     overflow: hidden;
     object-fit: cover;
+}
+
+.activity-title-date-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.activity-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    flex: 1 0 0;
+
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.footer-social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.footer-social-container {
+    display: flex;
+    padding: 28px 0px;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.footer-text-container {
+    display: flex;
+    padding: 0px 10px 24px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.footer-text {
+    color: var(--colordarkbackground, #999);
+    font: var(--p);
+    font-weight: 400;
+}
+
+.freepik-attribution {
+    color: var(--colordarkbackground, 999);
 }
