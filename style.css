@@ -49,6 +49,10 @@ p, ul {
     font: var(--p);
 }
 
+.light-p {
+    font: var(--light-p);
+}
+
 .date-text {
     font: var(--light-p);
     color: var(--colordarkbackground)
@@ -134,7 +138,7 @@ a:visited {
     align-items: center;
 }
 
-.title-background {
+.title-page-title-background {
     width: 100%;
     min-width: 1731px;
 
@@ -142,6 +146,13 @@ a:visited {
     left: 0%;
     top: 0%;
 
+    z-index: -1;
+}
+
+.title-background {
+    position: absolute;
+    left: 0%;
+    top: 84px;
     z-index: -1;
 }
 
@@ -382,6 +393,7 @@ a:visited {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    align-self: stretch;
     gap: 24px;
     flex: 1 0 0;
 }
@@ -419,7 +431,8 @@ a:visited {
 
     border-radius: 24px;
     border: 1px solid var(--color-background, #DFDFDF);
-    background: url("./img/activity images/Producthon - trot.png")
+    background: url("./img/activity images/Producthon - trot.png");
+    background-size: cover;
 }
 
 .activity-title-date-container {
@@ -491,6 +504,8 @@ a:visited {
     align-items: flex-start;
     background-color: var(--colorsecondary);
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+
+    z-index: -2;
 }
 
 .activities-page-title {
@@ -506,6 +521,7 @@ a:visited {
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
+    z-index: 0;
 }
 
 .activities-page-all-activities {
@@ -564,4 +580,45 @@ a:visited {
 
 .activity-section-card.portfolio-website {
     background: url("./img/activity images/portfolio website.png") lightgray left / cover no-repeat;
+}
+
+.about-page-container {
+    display: flex;
+    padding: 180px 144px 0px 144px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--colorsecondary);
+/* Drop shadow over footer */
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.about-page-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.about-page-content {
+    display: flex;
+    padding: 96px 0px;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.about-portrait {
+    max-width: 368px;
+
+    border-radius: 24px;
+}
+
+.about-page-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
 }
