@@ -5,9 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Owen Liao</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./img/svg/icon.svg">
+    <link rel="icon" href="./img/logo.png">
 </head>
 <body>
+    <div class="header-section">
+        <div class="header-container">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="./img/svg/bolt-lightning-solid 1.svg">
+                    <h3 class="h3">OL</h3>
+                </div>
+            </a>
+            <div class="menu-item-container">
+                <a href="./index.html">
+                    <div class="menu-item" href="./index.html">
+                        Home
+                    </div>
+                </a>
+                <a href="activities.html">
+                    <div class="menu-item">
+                        Activities
+                    </div>
+                </a>
+                <a href="about.html">
+                    <div class="menu-item">
+                        About
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
     <div class="header-section">
         <div class="header-container">
             <a href="index.html">
@@ -48,7 +75,7 @@
                         </ul>
                         <div class="title-buttons-container">
                             <a class="title-about-btn button-text" href="./about.html">About me</a>
-                                <a>
+                                <a class="title-resume-btn-a" href="./files/owen-liao-resume.pdf" download="Owen Liao Resume.pdf">
                                     <div class="title-resume-btn">
                                         <p class="button-text">Download resume</p>
                                         <img src="img/svg/download.svg" class="download-svg">
@@ -56,14 +83,16 @@
                                 </a>
                         </div>
                     </div>
-                    <div class="social-container"> 
-                            <!-- TODO uh my figma for this part was weird so check later 
-                             maybe you don't need css for these-->
-                            <a href="https://www.linkedin.com/in/owenliao/">
-                             <img src="./img/svg/linkedin default header.svg" class="default header social-media-icon linkedin">
+                    <div class="social-container">
+                            <a href="https://www.linkedin.com/in/owenliao/" target="_blank" class="social-media-icon-a">
+                                <img src="./img/svg/linkedin default header.svg" class="default header social-media-icon linkedin">
                             </a>
-                             <img src="./img/svg/github default header.svg" class="default header social-media-icon github">
-                            <img src="img/svg/mail default header.svg" class="default header social-media-icon mail">
+                            <a href="https://github.com/owenwliao" target="_blank" class="social-media-icon-a">
+                                <img src="./img/svg/github default header.svg" class="default header social-media-icon github">
+                            </a>
+                            <a href="mailto:owen.liao@tufts.edu" target="_blank" class="social-media-icon-a">
+                                <img src="img/svg/mail default header.svg" class="default header social-media-icon mail">
+                            </a>
                     </div>
                 </div>
                 <img src="img/portrait.jpg" class="title-portrait">
@@ -105,9 +134,9 @@
             <div class="activities-title-container">
                 <div class="activities-title-text-container">
                     <h2>Activities</h2>
-                    <p>Take a look below at what I've been doing recently.</p>
+                    <p>See what I've been up to recently.</p>
                 </div>
-                <a href="./projects.html"><div class="view-all-btn">
+                <a href="./activities.html"><div class="view-all-btn">
                     <p>View all</p>
                     <img src="./img/svg/right arrow.svg">
                 </div></a>
@@ -132,7 +161,7 @@
         </div>
         <div class="activity-card">
             <div class="activity-container">
-                <img class="activity-image" src="./img/activity images/portfolio website.PNG">
+                <img class="activity-image" src="./img/activity images/personal website.PNG">
                 <div class="activity-content-container">
                     <div class="activity-content">
                         <div class="activity-title-date-container">
@@ -140,7 +169,7 @@
                             <p class="date-text">July 2024</p>
                         </div>
                         <p>A updated portfolio of my work.</p>
-                        <a class="white-small-btn">Learn more</a>
+                        <a class="white-small-btn" href="./activities/personal-website.html">Learn more</a>
                     </div>
                 </div>
             </div>

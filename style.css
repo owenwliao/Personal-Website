@@ -227,6 +227,14 @@ a:visited {
     color: var(--colorsecondary);
 }
 
+a.title-about-btn:visited {
+    color: var(--colorsecondary);
+}
+
+a.title-resume-btn-a {
+    color: var(--colorprimary);
+}
+
 .title-resume-btn {
     display: flex;
     padding: 20px;
@@ -579,8 +587,8 @@ a:visited {
     background: url("./img/activity images/Producthon - trot.png") lightgray left / cover no-repeat;
 }
 
-.activity-section-card.portfolio-website {
-    background: url("./img/activity images/portfolio website.png") lightgray left / cover no-repeat;
+.activity-section-card.personal-website {
+    background: url("./img/activity images/personal website.png") lightgray left / cover no-repeat;
 }
 
 .about-page-container {
