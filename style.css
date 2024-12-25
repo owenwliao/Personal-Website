@@ -376,7 +376,7 @@ a.title-resume-btn-a {
 
     position: absolute;
     left: 0%;
-    top: 1100px;
+    top: var(--photo-top);  
 }
 
 .activity-card {
