@@ -376,7 +376,7 @@ a.title-resume-btn-a {
 
     position: absolute;
     left: 0%;
-    top: 1100px;
+    top: var(--photo-top);  
 }
 
 .activity-card {
@@ -396,6 +396,7 @@ a.title-resume-btn-a {
     align-items: center;
     gap: 86px;
     flex: 1 0 0;    
+    border-bottom: 1px solid var(--color-background, #DFDFDF);
 }
 
 .activity-content {
