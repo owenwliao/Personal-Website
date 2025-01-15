@@ -320,7 +320,7 @@ a.title-resume-btn-a {
     height: 91px;
 }
 
-.activities-section {
+.projects-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -331,7 +331,7 @@ a.title-resume-btn-a {
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
 }
 
-.activities-title {
+.projects-title {
     display: flex;
     padding: 48px 0px;
     justify-content: center;
@@ -341,7 +341,7 @@ a.title-resume-btn-a {
     flex-wrap: wrap;    
 }
 
-.activities-title-container {
+.projects-title-container {
     display: flex;
     padding: 0px 242px;
     justify-content: space-between;
@@ -349,7 +349,7 @@ a.title-resume-btn-a {
     flex: 1 0 0;
 }
 
-.activities-title-text-container {
+.projects-title-text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -371,7 +371,7 @@ a.title-resume-btn-a {
     color: var(--colorsecondary);
 }
 
-.activities-background {
+.projects-background {
     width: 220px;
 
     position: absolute;
@@ -379,7 +379,7 @@ a.title-resume-btn-a {
     top: var(--photo-top);  
 }
 
-.activity-card {
+.project-card {
     display: flex;
     padding-bottom: 48px;
     justify-content: center;
@@ -388,7 +388,7 @@ a.title-resume-btn-a {
     flex-wrap: wrap;
 }
 
-.activity-container {
+.project-container {
     display: flex;
     max-height: 293px;
     padding: 0px 242px 48px 242px;
@@ -399,7 +399,7 @@ a.title-resume-btn-a {
     border-bottom: 1px solid var(--color-background, #DFDFDF);
 }
 
-.activity-content {
+.project-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -422,7 +422,7 @@ a.title-resume-btn-a {
     font: var(--p);
 }
 
-.activity-image {
+.project-image {
     flex: 1 0 0;
     align-self: stretch;
 
@@ -434,24 +434,24 @@ a.title-resume-btn-a {
     object-fit: cover;
 }
 
-.activity-image-div {
+.project-image-div {
     display: flex;
     flex: 1 0 0;
     align-self: stretch;
 
     border-radius: 24px;
     border: 1px solid var(--color-background, #DFDFDF);
-    background: url("./img/activity images/Producthon - trot.png");
+    background: url("./img/project images/Producthon - trot.png");
     background-size: cover;
 }
 
-.activity-title-date-container {
+.project-title-date-container {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
 }
 
-.activity-content-container {
+.project-content-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -508,7 +508,7 @@ a.title-resume-btn-a {
     width: 100%;
 }
 
-.activities-page-container {
+.projects-page-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -518,7 +518,7 @@ a.title-resume-btn-a {
     z-index: -2;
 }
 
-.activities-page-title {
+.projects-page-title {
     display: flex;
     padding: 180px 144px 0px 144px;
     flex-direction: column;
@@ -526,7 +526,7 @@ a.title-resume-btn-a {
     align-items: start;
 }
 
-.activities-page-title-container {
+.projects-page-title-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -534,7 +534,7 @@ a.title-resume-btn-a {
     z-index: 0;
 }
 
-.activities-page-all-activities {
+.projects-page-all-projects {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -543,7 +543,7 @@ a.title-resume-btn-a {
     gap: 10px;
 }
 
-.activities-page-activities {
+.projects-page-projects {
     display: flex;
     padding: 48px 144px;
     flex-direction: column;
@@ -553,14 +553,14 @@ a.title-resume-btn-a {
     align-self: stretch;
 }
 
-.activities-page-activity-container {
+.projects-page-project-container {
     display: flex;
     align-items: flex-start;
     gap: 24px;
     align-self: stretch;
 }
 
-.activity-section-card {
+.project-section-card {
     display: flex;
     height: 332px;
     padding: 8px;
@@ -573,7 +573,7 @@ a.title-resume-btn-a {
     border: 1px solid var(--color-background, #DFDFDF);
 }
 
-.activity-section-card-title {
+.project-section-card-title {
     display: flex;
     padding: 8px 16px;
     justify-content: center;
@@ -584,12 +584,12 @@ a.title-resume-btn-a {
     background: var(--color-secondary, #FFF);
 }
 
-.activity-section-card.producthon-trot {
-    background: url("./img/activity images/Producthon - trot.png") lightgray left / cover no-repeat;
+.project-section-card.producthon-trot {
+    background: url("./img/project images/Producthon - trot.png") lightgray left / cover no-repeat;
 }
 
-.activity-section-card.personal-website {
-    background: url("./img/activity images/personal website.png") lightgray left / cover no-repeat;
+.project-section-card.personal-website {
+    background: url("./img/project images/personal website.png") lightgray left / cover no-repeat;
 }
 
 .about-page-container {
