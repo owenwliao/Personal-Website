@@ -1,200 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Owen Liao</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./img/logo.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Owen Liao</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./img/logo.png">
 </head>
 <body>
-    <div class="header-section">
-        <div class="header-container">
-            <a href="index.html">
-                <div class="logo">
-                    <img src="./img/svg/bolt-lightning-solid 1.svg">
-                    <h3 class="h3">OL</h3>
+  <div class="header-section">
+    <div class="header-container">
+      <a href="index.html">
+        <div class="logo">
+          <img src="./img/svg/bolt-lightning-solid 1.svg" alt="Logo" width="30">
+          <h3 class="h3">OL</h3>
+        </div>
+      </a>
+      <div class="menu-item-container">
+        <a href="index.html"><div class="menu-item">Home</div></a>
+        <a href="projects.html"><div class="menu-item">Activities</div></a>
+        <a href="about.html"><div class="menu-item">About</div></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="title-section">
+    <div class="title-card">
+      <img class="title-page-title-background" src="./img/title-background.jpg" alt="Background">
+      <div class="title-container">
+        <div class="title-text-container">
+          <div class="title-text">
+            <h1>Owen Liao</h1>
+            <ul class="title-description">
+              <li>Tufts University - EE '27</li>
+              <li>I like circuits.</li>
+            </ul>
+            <div class="title-buttons-container">
+              <a class="title-about-btn button-text" href="./about.html">About me</a>
+              <a class="title-resume-btn-a" href="./files/Owen_Liao_Resume_Mar_2025.pdf" download="Owen Liao Resume.pdf">
+                <div class="title-resume-btn">
+                  <p class="button-text">Download resume</p>
+                  <img src="./img/svg/download.svg" class="download-svg" alt="Download">
                 </div>
+              </a>
+            </div>
+          </div>
+          <div class="social-container">
+            <a href="https://www.linkedin.com/in/owenliao/" target="_blank" class="social-media-icon-a">
+              <img src="./img/svg/linkedin default header.svg" class="default header social-media-icon linkedin" alt="LinkedIn">
             </a>
-            <div class="menu-item-container">
-                <a href="./index.html">
-                    <div class="menu-item" href="./index.html">
-                        Home
-                    </div>
-                </a>
-                <a href="projects.html">
-                    <div class="menu-item">
-                        Projects
-                    </div>
-                </a>
-                <a href="about.html">
-                    <div class="menu-item">
-                        About
-                    </div>
-                </a>
-            </div>
+            <a href="https://github.com/owenwliao" target="_blank" class="social-media-icon-a">
+              <img src="./img/svg/github default header.svg" class="default header social-media-icon github" alt="GitHub">
+            </a>
+            <a href="mailto:owen.liao@tufts.edu" target="_blank" class="social-media-icon-a">
+              <img src="./img/svg/mail default header.svg" class="default header social-media-icon mail" alt="Mail">
+            </a>
+          </div>
         </div>
+        <img src="./img/portrait 2025.JPEG" class="title-portrait" alt="Owen Liao">
+      </div>
     </div>
-    <div class="title-section">
-        <div class="title-card">
-            <img class="title-page-title-background" src="img/title-background.jpg">                
-            <div class="title-container">
-                <div class="title-text-container">
-                    <div class="title-text">
-                        <h1>Owen Liao</h1>
-                        <ul class="title-description">
-                            <li>Tufts University - EE '27</li>
-                            <li>Learning full-stack development</li>
-                        </ul>
-                        <div class="title-buttons-container">
-                            <a class="title-about-btn button-text" href="./about.html">About me</a>
-                                <a class="title-resume-btn-a" href="./files/Owen_Liao_Resume_Mar_2025.pdf" download="Owen Liao Resume.pdf">
-                                    <div class="title-resume-btn">
-                                        <p class="button-text">Download resume</p>
-                                        <img src="img/svg/download.svg" class="download-svg">
-                                    </div>
-                                </a>
-                        </div>
-                    </div>
-                    <div class="social-container">
-                            <a href="https://www.linkedin.com/in/owenliao/" target="_blank" class="social-media-icon-a">
-                                <img src="./img/svg/linkedin default header.svg" class="default header social-media-icon linkedin">
-                            </a>
-                            <a href="https://github.com/owenwliao" target="_blank" class="social-media-icon-a">
-                                <img src="./img/svg/github default header.svg" class="default header social-media-icon github">
-                            </a>
-                            <a href="mailto:owen.liao@tufts.edu" target="_blank" class="social-media-icon-a">
-                                <img src="img/svg/mail default header.svg" class="default header social-media-icon mail">
-                            </a>
-                    </div>
-                </div>
-                <img src="img/portrait 2025.JPEG" class="title-portrait">
-            </div>
-        </div>
+  </div>
+
+  <section class="projects-section">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-card-container">
+      <div class="project-card">
+  <img src="./img/project images/Producthon - trot.png" class="project-image" alt="Project Image">
+  <div class="project-info">
+    <h3 class="project-title">TROT</h3>
+    <p class="date-text">October 2023</p>
+    <p class="project-description">An academic research showcase platform built at Tufts Producthon 2023.</p>
+    <div class="tag-group">
+      <span class="tag hackathon">Hackathon</span>
+      <span class="tag product">Product</span>
     </div>
-    <div class="skills-section">
-        <div class="skills-title-container">
-        <!-- <img src="./img/radial slice.png" class="projects-background"> -->
-            <h2 class="h2">Skills</h2>
-        </div>
-        <div class="skills-carousel"> <!-- TODO figure out the carousel haha there's probably a better way to do it than i did in figma -->
-            <div class="skills-list">
-                <div class="skill-wrapped c++">
-                    <img src="./img/Skill images/C++.png" class="skill-img">
-                </div>
-                <div class="skill-wrapped html">
-                    <img src="./img/Skill images/HTML.png" class="skill-img">
-                </div>
-                <div class="skill-wrapped javascript">
-                    <img src="./img/Skill images/javascript.png" class="skill-img">
-                </div>
-                <div class="skill-wrapped css">
-                    <img src="./img/Skill images/CSS.png" class="skill-img">
-                </div>
-                <div class="skill-wrapped java">
-                    <img src="./img/Skill images/Java.png" class="skill-img">
-                </div>
-                <div class="skill-wrapped figma">
-                    <img src="./img/Skill images/Figma.png" class="skill-img">
-                </div>
-                <!-- <div class="skill-wrapped office365">
-                    <img src="./img/Skill images/Office 365.png" class="skill-img">
-                </div> -->
-            </div>
-        </div>
+  </div>
+</div>
+<div class="project-card">
+  <img src="./img/project images/Producthon - trot.png" class="project-image" alt="Project Image">
+  <div class="project-info">
+    <h3 class="project-title">Meow Memory</h3>
+    <p class="date-text">December 2024</p>
+    <p class="project-description">A matching game where players flip cards to find cat pairs—built on an FPGA for fun and challenge.</p>
+    <div class="tag-group">
+      <span class="tag fpga">FPGA</span>
+      <span class="tag arcade">Arcade</span>
     </div>
-    <div class="projects-section">
-        <div class="projects-title">
-            <div class="projects-title-container">
-                <img src="./img/radial slice.png" class="projects-background"> <!-- not sure if i like this  -->
-                <div class="projects-title-text-container">
-                    <h2>Projects</h2>
-                    <p>See what I've been up to recently.</p>
-                </div>
-                <a href="./projects.html"><div class="view-all-btn">
-                    <p>View all</p>
-                    <img src="./img/svg/right arrow.svg">
-                </div></a>
-            </div>
-        </div>
-        <div class="project-card">
-            <div class="project-container">
-                <div class="project-content">
-                    <div class="project-title-date-container">
-                        <h3>Meow Memory</h3>
-                        <p class="date-text">December 2024</p>
-                    </div>
-                    <p>Fully functional arcade game prototype on an FPGA.</p>
-                    <a class="white-small-btn">Learn more</a>
-                </div>
-                <img class="project-image" src="./img/project images/meow-memory">
-            </div>
-        </div>
-        <div class="project-card">
-            <div class="project-container">
-                <img class="project-image" src="./img/project images/spirometer">
-                <div class="project-content">
-                    <div class="project-title-date-container">
-                        <h3>Spirometer</h3>
-                        <p class="date-text">December 2024</p>
-                    </div>
-                    <p>Breadboard prototype for measuring exhalation.</p>
-                    <a class="white-small-btn">Learn more</a>
-                </div>
-            </div>
-        </div>
-        <div class="project-card">
-            <div class="project-container">
-                <div class="project-content-container">
-                    <div class="project-content">
-                        <div class="project-title-date-container">
-                            <h3>Personal Website</h3>
-                            <p class="date-text">July 2024</p>
-                        </div>
-                        <p>A updated portfolio of my work.</p>
-                        <a class="white-small-btn" href="./projects/personal-website.html">Learn more</a>
-                    </div>
-                </div>
-                <img class="project-image" src="./img/project images/personal website.PNG">
-            </div>
-        </div>
-        <div class="project-card">
-            <div class="project-container">
-                <div class="project-content">
-                    <div class="project-title-date-container">
-                        <h3>Producthon - trot.</h3>
-                        <p class="date-text">October 2023</p>
-                    </div>
-                    <p>Product that helps undergraduates find research opportunities.</p>
-                    <a class="white-small-btn">Learn more</a>
-                </div>
-                <!-- <div class="project-image-div"> </div> -->
-                <img class="project-image" src="./img/project images/Producthon - trot.png">
-                <!--TODO: wrap images in a div so that when the screen is wide, you still see the top of the image rather than it being centered-->
-                <!-- NEW TODO: (7/9/2024) there's gotta be a better way to add comments but wrapping the images in a div is still a WIP so please finish it next time -->
-            </div>
-        </div>
+  </div>
+</div>
+<div class="project-card">
+  <img src="./img/project images/Producthon - trot.png" class="project-image" alt="Project Image">
+  <div class="project-info">
+    <h3 class="project-title">Spirometer</h3>
+    <p class="date-text">December 2024</p>
+    <p class="project-description">Designed a working spirometer prototype to measure breath strength using basic analog components.</p>
+    <div class="tag-group">
+      <span class="tag circuit">Circuit Design</span>
+      <span class="tag health">Health</span>
     </div>
-    <div class="footer-section">
-        <div class="footer-social-media">
-            <div class="footer-social-container">
-                <a class="footer-social" href="https://www.linkedin.com/in/owenliao/" target="_blank">
-                    <img src="./img/svg/linkedin default footer.svg" class="default footer social-media-icon linkedin">
-                </a>
-                <a class="footer-social" href="https://github.com/owenwliao" target="_blank">
-                    <img src="./img/svg/github default footer.svg" class="default footer social-media-icon github">
-                </a>
-                <a class="footer-social" href="mailto:owen.liao@tufts.edu" target="_blank">
-                    <img src="img/svg/mail default footer.svg" class="default footer social-media-icon mail">
-                </a>
-            </div>
-        </div>
-        <div class="footer-text-container">
-            <p class="footer-text">
-                2024 - Owen Liao. Graphics designed by <a class="freepik-attribution" href="https://www.freepik.com">Freepik</a>.
-            </p>        
-        </div>
+  </div>
+</div>
     </div>
-    <script src="./js/projects-background.js"></script>
+  </section>
+
+  <section class="skills-section">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-carousel">
+      <div class="skill-logo"><img src="./img/Skill images/C++.png" alt="C++"></div>
+      <div class="skill-logo"><img src="./img/Skill images/HTML.png" alt="HTML"></div>
+      <div class="skill-logo"><img src="./img/Skill images/CSS.png" alt="CSS"></div>
+      <div class="skill-logo"><img src="./img/Skill images/javascript.png" alt="JavaScript"></div>
+      <div class="skill-logo"><img src="./img/Skill images/Java.png" alt="Java"></div>
+      <div class="skill-logo"><img src="./img/Skill images/Figma.png" alt="Figma"></div>
+      <div class="skill-logo"><img src="./img/Skill images/Office 365.png" alt="Office 365"></div>
+    </div>
+  </section>
+  <div class="footer-section">
+    <div class="footer-social-container">
+      <a class="footer-social" href="https://www.linkedin.com/in/owenliao/" target="_blank">
+        <img src="./img/svg/linkedin default footer.svg" alt="LinkedIn">
+      </a>
+      <a class="footer-social" href="https://github.com/owenwliao" target="_blank">
+        <img src="./img/svg/github default footer.svg" alt="GitHub">
+      </a>
+      <a class="footer-social" href="mailto:owen.liao@tufts.edu" target="_blank">
+        <img src="./img/svg/mail default footer.svg" alt="Email">
+      </a>
+    </div>
+    <p class="footer-text">
+      2024 - Owen Liao. Graphics by <a class="freepik-attribution" href="https://www.freepik.com">Freepik</a>.
+    </p>
+  </div>  
 </body>
 </html>
